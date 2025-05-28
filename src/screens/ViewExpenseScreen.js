@@ -103,9 +103,6 @@ const ViewExpenseScreen = () => {
             </TouchableOpacity>
          </View>
 
-         {/* <Text style={styles.totalText}>
-            Total {selected !== 'All' ? `(${selected})` : ''}: ${total.toLocaleString()}
-         </Text> */}
          <Text style={styles.totalText}>
             Total {selected !== 'All' ? `(${selected})` : ''}: $
             {Number(total).toLocaleString(undefined, {
